@@ -3,4 +3,7 @@ __pycache__/
 .venv/
 venv/
 .env
-.vscode/git status
+.vscode/
+
+# Dataset - Do not upload
+Dataset/
