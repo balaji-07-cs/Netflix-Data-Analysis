@@ -203,19 +203,19 @@ The dashboard updates dynamically based on the selected filters.
 
 ```bash
 git clone https://github.com/balaji-07-cs/Netflix-Data-Analysis.git
-```
+
 
 2. Navigate to the Project Directory
 
 ```bash
 cd Netflix-Data-Analysis
-```
+
 
 3. Install Required Libraries
 
 ```bash
 pip install -r requirements.txt
-```
+
 
 4. Add the Dataset
 
@@ -225,7 +225,7 @@ The expected file path is:
 
 ```text
 Dataset/Dataset.csv
-```
+
 
 The dataset is not included in this repository and must be obtained separately.
 
@@ -233,13 +233,13 @@ The dataset is not included in this repository and must be obtained separately.
 
 ```bash
 python main.py
-```
+
 
 6. Launch the Streamlit Dashboard
 
 ```bash
 python -m streamlit run app.py
-```
+
 
 The dashboard will open in your default web browser.
 
@@ -264,16 +264,27 @@ The dashboard will open in your default web browser.
 - [x] GitHub repository update
 - [x] Project documentation
 
-## 👨‍💻 Author
+👨‍💻 Author
 
 Balaji B
 
 B.Sc. Computer Science
 
-## 🔗 GitHub Repository
+🔗 GitHub Repository
 
 [Netflix Data Analysis Project](https://github.com/balaji-07-cs/Netflix-Data-Analysis)
 
 ---
 
 *Developed using Python, Pandas, NumPy, Matplotlib, Seaborn and Streamlit.*
+
+📸 Dashboard Screenshots
+
+Dashboard – Overview
+![Dashboard Overview](Images/dashboard_1.png)
+
+Dashboard – Analysis
+![Dashboard Analysis](Images/dashboard_2.png)
+
+Dashboard – Content Insights
+![Dashboard Content Insights](Images/dashboard_3.png)
